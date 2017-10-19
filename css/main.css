@@ -30,30 +30,49 @@ header hr {
   /*configuramos el espaciado de cada linea de texto*/
   line-height: 1.6;
 }
+/*usamos selector de clase"summary*/
 .summary {
+  /*con la propiedad "display" damos forma inline pero mantiene su naturaleza de bloque*/
   display: inline-block;
+  /*Alinear verticalmente hacia arriba la tabla*/
   vertical-align: top;
+  /*configuramos el ancho de la caja*/
   width: 20px;
+  /*configuramos el margen superior*/
   margin-top: 40px;
 }
+/*usamos selector de clase"summary-table*/
 .summary-table {
+  /*configuramos el color ,el grosor y tipo de borde de la tabla*/
   border: 1px solid #a2a961;
+  /*configuramos el color de fondo de la tabla*/
   background-color: #f8f9fa;
+  /*modificamos el relleno*/
   padding: 1px;
+  /*configuramos el tamaño de la fuente a usar en la tabla*/
   font-size: 14px;
-
 }
+/*usamos selector de clase"summary-table* y usamos la especificidad */
 .summary-table thead th {
+  /*configuramos el color de fondo del encabezado de la tabla*/
   background-color: #B0C4DE;
+  /*configuramos el relleno superior*/
   padding-top: 3PX;
+  /*configuramos el relleno inferior*/
   padding-bottom: 3PX;
+  /*configuramos el tamaño de la fuente a usar en el encabezado de la tabla*/
   font-size: 16px;
 }
+/*usamos selector de clase"summary-table* y usamos la especificidad para seleccionar el "primer hijo" */
 .summary-table tbody tr:first-child{
+  /*configuramos el color de fondo de la parte donde se posiciona la imagen*/
   background-color: #f8f9fa;
+  /*alineamos la imagen y el texto al centro*/
   text-align: center;
 }
+/*usamos selector de clase"summary-table* y usamos la especificidad */
 .summary-table tbody th {
+  /*alineamos los "th" de nuestra tabla a la izquiera*/
   text-align: left;
 
 }
