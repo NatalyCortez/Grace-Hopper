@@ -2,8 +2,8 @@ EJERCICIO:"Replicando la página de Grace Hopper de wikipedia"
 ---
 Objetivo:
 ----
-Poner en práctica lo aprendido de CSS y html,replicando una página bibliografica de *wikipedia*.
-Tambien se hará uso de selectores,tablas y mas elementos de html.
+Poner en práctica lo aprendido de CSS y html,replicando una página bibliográfica de *wikipedia*.
+También se hará uso de selectores,tablas y mas elementos de html.
 
 Herramientas a usar:
 ----
@@ -13,4 +13,4 @@ Herramientas a usar:
 Vista previa:
 ---
 
-![Grace Hooper Page]()
+![Grace Hooper Page](https://raw.githubusercontent.com/NatalyCortez/Grace-Hopper/master/assents/Captura.JPG)
