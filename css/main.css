@@ -29,6 +29,7 @@ header hr {
   font-size: 14px;
   /*configuramos el espaciado de cada linea de texto*/
   line-height: 1.6;
+ }
 .summary {
   display: inline-block;
   vertical-align: top;
